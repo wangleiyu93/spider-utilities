@@ -1,0 +1,53 @@
+{
+  "name": "@spider_w/spider-utils",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "",
+  "scripts": {
+    "clean": "cd ../.. && npx rimraf packages/spider-utils/dist packages/spider-utils/*.log*",
+    "lint": "cd ../.. && eslint packages/spider-utils/src/**/*.ts",
+    "check-types": "npm run build -- --noEmit",
+    "prebuild": "npm run clean",
+    "build": "cd ../.. && tsc -p packages/spider-utils/tsconfig.json && npx tsc -p packages/spider-utils/tsconfig.json --module commonjs --outDir ./packages/spider-utils/dist/cjs",
+    "test": "cd ../.. && yarn test packages/spider-utils",
+    "cover": "cd ../.. && yarn cover packages/spider-utils",
+    "commit": "cd ../.. && yarn commit",
+    "prepublishOnly": "yarn build"
+  },
+  "keywords": [
+    "lerna",
+    "typescript"
+  ],
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "files": [
+    "dist",
+    "package.json",
+    "package-lock.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "bignumber.js": "^9.x",
+    "tslib": "^2.4.x"
+  },
+  "devDependencies": {
+    "bignumber.js": "^9.1",
+    "tslib": "^2.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangleiyu93/spider-utilities"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/wangleiyu93/spider-utilities/issues"
+  },
+  "sideEffects": false,
+  "homepage": "https://github.com/wangleiyu93/spider-utilities#readme",
+  "gitHead": ""
+}
