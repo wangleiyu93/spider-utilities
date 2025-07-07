@@ -11,11 +11,7 @@ module.exports = {
       statements: 100,
     },
   },
-  coveragePathIgnorePatterns: [
-    'packages/spider-utils/src/formatters/reserve/index.ts',
-    'packages/spider-utils/src/formatters/emode/index.ts',
-    'packages/spider-utils/src/formatters/incentive/',
-  ],
+  // coveragePathIgnorePatterns: [],
   modulePathIgnorePatterns: ['node_modules'],
   testEnvironment: 'node',
   verbose: true,
