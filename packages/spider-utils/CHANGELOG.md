@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.1.0 (2025-07-08)
+
+### Features
+
+- add project
+  ([5cd379b](https://github.com/wangleiyu93/spider-utilities/commit/5cd379b4e0c2539fce1a59c4249f5ab5c3a2fbf5))
+- add valueToZDBigNumber test demo
+  ([38f9209](https://github.com/wangleiyu93/spider-utilities/commit/38f9209eaa1dfb81ee7a8096791c323981c8a5aa))
+- modify eslint config
+  ([12f139a](https://github.com/wangleiyu93/spider-utilities/commit/12f139a86a0f57f72cc2adaed2ab211dbda73f62))
+- remove nouse file
+  ([c6664ca](https://github.com/wangleiyu93/spider-utilities/commit/c6664caddb50e45652547e625c9457c2ec0049a6))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [0.3.0](https://github.com/aave/aave-utilities/compare/@spider/spider-utils@0.2.0...@spider/spider-utils@0.3.0) (2025-07-07)
 
 ### Features
