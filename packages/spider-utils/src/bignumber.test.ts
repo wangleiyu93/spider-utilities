@@ -1,5 +1,10 @@
 import BigNumber from 'bignumber.js';
-import { normalize, normalizeBN, valueToBigNumber } from './';
+import {
+  normalize,
+  normalizeBN,
+  valueToBigNumber,
+  valueToZDBigNumber,
+} from './';
 
 describe('BigNumber tests', () => {
   describe('valueToBigNumber', () => {
@@ -49,6 +54,13 @@ describe('BigNumber tests', () => {
       const result = normalizeBN(new BigNumber('4'), 4);
       expect(result).toBeInstanceOf(BigNumber);
       expect(result.toFixed()).toEqual('0.0004');
+    });
+  });
+
+  describe('valueToZDBigNumber', () => {
+    it('should convert value using BigNumberZeroDecimal', () => {
+      const result = valueToZDBigNumber('100.999');
+      expect(result.toFixed(0, BigNumber.ROUND_DOWN)).toEqual('100');
     });
   });
 });
