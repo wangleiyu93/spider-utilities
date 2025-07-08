@@ -17,7 +17,7 @@ describe('getDate', () => {
 });
 
 describe('hello', () => {
-  it('should return a hello', () => {
+  it('should return a hello!', () => {
     expect(hello()).toBe('hello');
   });
 });
