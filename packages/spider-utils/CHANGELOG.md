@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/wangleiyu93/spider-utilities/compare/@spider_w/spider-utils@0.1.0...@spider_w/spider-utils@1.0.1) (2025-07-08)
+
+### Bug Fixes
+
+- set version
+  ([0a6eb1c](https://github.com/wangleiyu93/spider-utilities/commit/0a6eb1c1bfc6a45d72d9893852def778dc0af328))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # 0.1.0 (2025-07-08)
 
 ### Features
