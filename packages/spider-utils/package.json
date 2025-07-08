@@ -1,6 +1,6 @@
 {
   "name": "@spider_w/spider-utils",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "",
   "scripts": {
@@ -49,5 +49,5 @@
   },
   "sideEffects": false,
   "homepage": "https://github.com/wangleiyu93/spider-utilities#readme",
-  "gitHead": ""
+  "gitHead": "65384103b441c17f8ab98a142128233cf980035a"
 }
