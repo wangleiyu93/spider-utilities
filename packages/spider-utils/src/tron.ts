@@ -9,18 +9,11 @@ interface AccountInfo {
 export default class TronAccountChecker {
   private tronWeb: TronWeb;
 
-  constructor(
-    fullNode: string,
-    solidityNode: string,
-    eventNode: string,
-    privateKey?: string,
-  ) {
-    this.tronWeb = new TronWeb(
-      fullNode,
-      solidityNode,
-      eventNode,
-      privateKey || '',
-    );
+  constructor(fullHost?: string, privateKey?: string) {
+    this.tronWeb = new TronWeb({
+      fullHost: fullHost || 'https://api.trongrid.io',
+      privateKey: privateKey || '01',
+    });
   }
 
   /**
