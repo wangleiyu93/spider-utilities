@@ -49,5 +49,8 @@
   },
   "sideEffects": false,
   "homepage": "https://github.com/wangleiyu93/spider-utilities#readme",
-  "gitHead": "65384103b441c17f8ab98a142128233cf980035a"
+  "gitHead": "65384103b441c17f8ab98a142128233cf980035a",
+  "dependencies": {
+    "tronweb": "^6.0.4"
+  }
 }
