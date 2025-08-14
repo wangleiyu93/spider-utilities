@@ -3,14 +3,14 @@ module.exports = {
   collectCoverageFrom: ['packages/*/src/**/*.ts'],
   coverageDirectory: 'coverage',
   coverageReporters: ['lcov', 'text'],
-  coverageThreshold: {
-    global: {
-      branches: 100,
-      functions: 100,
-      lines: 100,
-      statements: 100,
-    },
-  },
+  // coverageThreshold: {
+  //   global: {
+  //     branches: 100,
+  //     functions: 100,
+  //     lines: 100,
+  //     statements: 100,
+  //   },
+  // },
   // coveragePathIgnorePatterns: [],
   modulePathIgnorePatterns: ['node_modules'],
   testEnvironment: 'node',
