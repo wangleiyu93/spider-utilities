@@ -1,5 +1,5 @@
 // date.test.ts
-import { getDate, hello } from './date';
+import { getDate } from './date';
 
 describe('getDate', () => {
   it('should return a Date object', () => {
@@ -13,11 +13,5 @@ describe('getDate', () => {
 
     // 时间差不要超过 1 秒
     expect(Math.abs(result.getTime() - now.getTime())).toBeLessThan(1000);
-  });
-});
-
-describe('hello', () => {
-  it('should return a hello', () => {
-    expect(hello()).toBe('hello');
   });
 });
