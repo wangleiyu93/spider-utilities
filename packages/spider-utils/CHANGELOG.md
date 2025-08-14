@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/wangleiyu93/spider-utilities/compare/@spider_w/spider-utils@0.2.0...@spider_w/spider-utils@0.3.0) (2025-08-14)
+
+### Features
+
+- remove hello function
+  ([86965c7](https://github.com/wangleiyu93/spider-utilities/commit/86965c7e9a12ed7437314b2c1b1e88577dd97818))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [0.2.0](https://github.com/wangleiyu93/spider-utilities/compare/@spider_w/spider-utils@0.1.0...@spider_w/spider-utils@0.2.0) (2025-08-14)
 
 ### Features
